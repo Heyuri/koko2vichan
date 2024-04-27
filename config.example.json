@@ -1,0 +1,28 @@
+{
+	"kokoToVichanBoardMappings": {
+		"my_koko_board": "my_vichan_board"
+	},
+
+	"rowsPerIteration": 100,
+
+	"koko": {
+		"basePath": "/var/www/koko",
+		"dbNamePrefix": "myprefix",
+		"mariadb": {
+			"host": "localhost",
+			"port": 3306,
+			"user": "kokouser",
+			"password": "mypasswordverygoodsir"
+		}
+	},
+	"vichan": {
+		"instancePath": "/var/www/vichan",
+		"mariadb": {
+			"host": "localhost",
+			"port": 3306,
+			"user": "vichanuser",
+			"password": "mypasswordverygoodsir",
+			"database": "vichan"
+		}
+	}
+}
